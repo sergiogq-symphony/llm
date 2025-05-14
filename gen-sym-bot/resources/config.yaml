@@ -1,0 +1,6 @@
+host: manual-003-2.on.qa.symphony.com
+
+bot:
+  username: gen-sym-bot
+  privateKey:
+    path: rsa/privatekey.pem
