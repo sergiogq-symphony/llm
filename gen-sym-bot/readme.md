@@ -13,6 +13,11 @@ To get started, follow these commands below:
     - macOS/Linux: `source env/bin/activate`
     - Windows: `env\Scripts\activate.bat`
 
+## Setup
+```
+gcloud auth application-default set-quota-project YOUR_PROJECT_ID
+```
+
 ## Run project
 - `python3 -m src`
 

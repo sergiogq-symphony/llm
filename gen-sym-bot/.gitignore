@@ -7,6 +7,7 @@
 
 rsa/
 env/
+.env
 .venv/
 bdk.log
 datafeed.id

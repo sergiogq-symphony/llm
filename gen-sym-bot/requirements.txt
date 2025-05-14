@@ -1,2 +1,4 @@
 symphony-bdk-python>=2.9.0
 Jinja2~=3.0
+langchain==0.3.25
+langchain-google-genai==2.1.4
