@@ -32,3 +32,5 @@ adk web
 
 ## References
 - https://google.github.io/adk-docs/
+- https://cloud.google.com/blog/topics/developers-practitioners/use-google-adk-and-mcp-with-an-external-server
+
