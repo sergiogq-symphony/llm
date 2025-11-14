@@ -37,6 +37,12 @@
             <artifactId>tokenizers</artifactId>
             <version>0.35.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/ai.djl.pytorch/pytorch-model-zoo -->
+        <dependency>
+            <groupId>ai.djl.pytorch</groupId>
+            <artifactId>pytorch-model-zoo</artifactId>
+            <version>0.35.0</version>
+        </dependency>
     </dependencies>
 
 </project>
