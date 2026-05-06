@@ -2,6 +2,11 @@
 
 This repository contains Agent Skills compatible with **Gemini CLI**, **Claude Code**, and other agents supporting the [Agent Skills](https://agentskills.io) standard.
 
+## Available Skills
+
+*   **`jira-xray-test-generator`**: Generates Jira XRay Test Cases from a source Jira issue (story, bug, or task). It analyzes the source ticket, linked tickets, Confluence pages, and Figma links to understand requirements, proposes draft test cases, and creates them in the `TEST` project in Jira linked to the original issue.
+*   **`xray-test-plan-analyzer`**: Performs a comprehensive breakdown of Xray Test Plans, categorizing tests by functional area, testing type (manual/automation), and environment (Phoenix/External).
+
 ## Structure
 Skills are stored in the `.agents/skills/` directory for cross-agent compatibility.
 
