@@ -6,6 +6,7 @@ This repository contains Agent Skills compatible with **Gemini CLI**, **Claude C
 
 *   **`jira-xray-test-generator`**: Generates Jira XRay Test Cases from a source Jira issue (story, bug, or task). It analyzes the source ticket, linked tickets, Confluence pages, and Figma links to understand requirements, proposes draft test cases, and creates them in the `TEST` project in Jira linked to the original issue.
 *   **`xray-test-plan-analyzer`**: Performs a comprehensive breakdown of Xray Test Plans, categorizing tests by functional area, testing type (manual/automation), and environment (Phoenix/External).
+*   **`jbehave-to-xray-tests`**: Parses JBehave `.story` files to extract scenarios missing a Jira Test key, creates corresponding `Xray Test` issues in Jira (automatically mapping custom fields like Associated Project, Product(s) Name, Test Type, and QE Automation Status), transitions them to the `Automated` status, and updates the `.story` files with the generated test IDs and Meta tags.
 
 ## Structure
 Skills are stored in the `.agents/skills/` directory for cross-agent compatibility.
