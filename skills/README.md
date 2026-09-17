@@ -9,6 +9,7 @@ This repository contains Agent Skills compatible with **Gemini CLI**, **Claude C
 *   **`jbehave-to-xray-tests`**: Parses JBehave `.story` files to extract scenarios missing a Jira Test key, creates corresponding `Xray Test` issues in Jira (automatically mapping custom fields like Associated Project, Product(s) Name, Test Type, and QE Automation Status), transitions them to the `Automated` status, and updates the `.story` files with the generated test IDs and Meta tags.
 *   **`gke-log-analyzer`**: Executing gcloud and kubectl commands to analyze GKE tenant logs (e.g. for sbe-s003 or tenant-10006), diagnosing service health (SBE, keymanager, search, ai, etc.) and gathering clean raw evidence for bug reports.
 *   **`jbehave-scenario-generator`**: Translates a Jira Story or Task ticket into JBehave BDD scenarios. Instructs the agent to explore repository source code to understand requirements, propose scenarios for user review and approval, implement stories and Java step definitions, and defer Jira Xray Test ticket creation until confirmed by a human.
+*   **`jenkins-log-analyzer`**: Analyzes Jenkins build logs from https://jenkins.gke-use4-tools-001.symphony.com/ using Jenkins MCP tools to diagnose pipeline failures, trace test or compilation tracebacks, and propose precise remediation plans for code, dependencies, or pod configurations.
 
 ## Structure
 Skills are stored in the `.agents/skills/` directory for cross-agent compatibility.
